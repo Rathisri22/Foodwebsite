@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="container" class="container">
+        <div id="menu">
+            <div class="brand-logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOn8rGAH9T0KuWyqFb1L6dq6w0fBpV89CIHw&usqp=CAU" alt="logo">
+        </div>
+        <div class="menu-items">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Your Orders</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Address</a>
+            <a href="#">Help</a>
+        </div>
+        </div>
+
+        <div id="food-container">
+            <div id="header">
+                <div class="add-box">
+                    <i class="fa fa-map-marker your-address" id="add-address">Your Address</i>
+                </div>
+                <div class="util">
+                    <i class="fa fa-search">Search</i>
+                    <i class="fa fa-tags">Offers</i>
+                    <i class="fa fa-cart-plus" id="cart-plus">0 Items</i>
+                </div>
+            </div>
+            <div id="food-items">
+
+                <div id="briyani">
+                    <p id="category-name">Biriyani</p>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-6TJaYcP-4RKzjz__v7YKI3DlGFCxIJ14Gg&usqp=CAU">
+                        <p id="item-name">Ambur Biryani</p>
+                        <p id="item-price">Price : $ 13</p>
+                    </div>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBB_iNsHbCsXFw7tQ3clTLoUYcn29X6HKlwQ&usqp=CAU">
+                        <p id="item-name">Hyderabadi Biryani</p>
+                        <p id="item-price">Price : $ 15</p>
+                    </div>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4FlalFx1iq1cMNlFZcoZxRQNdtKIuH6edpg&usqp=CAU">
+                        <p id="item-name">Egg Biryani</p>
+                        <p id="item-price">Price : $ 10</p>
+                    </div>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.2</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHXJrzphNCjAPWzvXXRyQPKUVS823zYqI0HUstRk0Sjv61qJxEFZQwcnIuNO2utclGeqU&usqp=CAU">
+                        <p id="item-name">Goan Fish Biryani</p>
+                        <p id="item-price">Price : $ 13</p>
+                    </div>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Ywh4QtyJoal2s0bEmzwcWiA6c4Ir6oemng&usqp=CAU">
+                        <p id="item-name">Mutton Biryani</p>
+                        <p id="item-price">Price : $ 14</p>
+                    </div>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPSDsh2ytYtXGS94CZS6WPWXaec3i5PEje4g&usqp=CAU">
+                        <p id="item-name">Kampuri Biryani</p>
+                        <p id="item-price">Price : $ 16</p>
+                    </div>
+                </div>
+
+                <div id="chicken">
+                    <p id="category-name">Chicken Delicious</p>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="data:image/jpeg;base64,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">
+                        <p id="item-name">Chicken Curry</p>
+                        <p id="item-price">Price : $ 12</p>
+                    </div>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.1</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-rIRJq3l9oaJinlF4-Zp01PKfSBfjcCYwoA&usqp=CAU">
+                        <p id="item-name">Chicken Roast</p>
+                        <p id="item-price">Price : $ 10</p>
+                    </div>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.4</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJBw6V5BPOiMg0Y4WJS2Z2RmZQ14klMO14Cw&usqp=CAU">
+                        <p id="item-name">Chicken Masala</p>
+                        <p id="item-price">Price : $ 18</p>
+                    </div>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrj16xSexxCIWe3Zex7L9kbJxxHEGL8Psp6w&usqp=CAU">
+                        <p id="item-name">Chicken Pyaza</p>
+                        <p id="item-price">Price : $ 16</p>
+                    </div>
+                    
+                </div>
+
+                <div id="paneer">
+                    <p id="category-name">Paneer Mania</p>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKAZS2bOpDsaNm83ZI41PcdbD3eVU3BqbkMw&usqp=CAU">
+                        <p id="item-name">Paneer Masala</p>
+                        <p id="item-price">Price : $ 12</p>
+                    </div>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrLtMm31JFaSY7e4uO3PmEPBn2fEjD64JFw&usqp=CAU">
+                        <p id="item-name">Palak Paneer</p>
+                        <p id="item-price">Price : $ 13</p>
+                    </div>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="data:image/jpeg;base64,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">
+                        <p id="item-name">Shahi Paneer</p>
+                        <p id="item-price">Price : $ 14</p>
+                    </div>
+                    </div>
+
+                <div id="vegetable">
+                    <p id="category-name">Pure Veg Dishes</p>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSxDFEIrlcPBqutWibjsKZp_2gqaPUJE1jg&usqp=CAU">
+                        <p id="item-name">Navratan Kurma</p>
+                        <p id="item-price">Price : $ 18</p>
+                    </div>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOvKwHlmtsE3oXENJ1AsyFyfKfvkz6YQBTMg&usqp=CAU">
+                        <p id="item-name">Veg Masala</p>
+                        <p id="item-price">Price : $ 14</p>
+                    </div>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt1ifnGFxwtTS0g7Df-aWkuBmZwL3n4lBvYw&usqp=CAU">
+                        <p id="item-name">Veg Pakora</p>
+                        <p id="item-price">Price : $ 16</p>
+                    </div>
+                </div>
+
+                <div id="chinese">
+                    <p id="category-name">Chinese Corner</p>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ2nfq95qvPgigHwN8r9NZSHl4aGIhP7V3BQ&usqp=CAU">
+                        <p id="item-name">Spring Roll</p>
+                        <p id="item-price">Price : $ 12</p>
+                    </div>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2dW0kx9D9uhfJk_020FOzUSpBeXADnsaFvw&usqp=CAU">
+                        <p id="item-name">Momos</p>
+                        <p id="item-price">Price : $ 14</p>
+                    </div>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK-F6w7q1HSaQY5G4nOJ5ik6YGC3qGnAT6Iw&usqp=CAU">
+                        <p id="item-name">Chowmein</p>
+                        <p id="item-price">Price : $ 16</p>
+                    </div>
+                </div>
+
+                <div id="south-indian">
+                    <p id="category-name">South Indian</p>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.1</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBtRzQzqQDtP0SSibqJrpu0sPApfWTcmGvCw&usqp=CAU">
+                        <p id="item-name">Rava Uttapam</p>
+                        <p id="item-price">Price : $ 14</p>
+                    </div>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.1</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9E-KsY45BAhJKtrH6YnTIByIc345acUsoSg&usqp=CAU">
+                        <p id="item-name">Mysore Bonda</p>
+                        <p id="item-price">Price : $ 12</p>
+                    </div>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.1</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV7N-jNQTsjLOemQrgpOwr8qP_jGyaAhwFKQ&usqp=CAU">
+                        <p id="item-name">Masala Dosa</p>
+                        <p id="item-price">Price : $ 18</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="cart-page">
+                <p id="cart-title">Cart Items</p>
+                <p id="m-total-amount">Total Amount : $ 100</p>
+                <table>
+                    <thead>
+                        <td>Item</td>
+                        <td>Name</td>
+                        <td>Quantity</td>
+                        <td>Price</td>
+                    </thead>
+                    <tbody id="table-body">
+                        <tr>
+                            <td>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrj16xSexxCIWe3Zex7L9kbJxxHEGL8Psp6w&usqp=CAU">
+                            </td>
+                            <td>Chicken Pyaza</td>
+                            <td>
+                                <button class="decrease-item">-</button>
+                                <span>1</span>
+                                <button class="increase-item">+</button>
+                            </td>
+                            <td>10</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="cart">
+            <div class="taste-header">
+                <div class="user">
+                    <i class="fa fa-user-circle">
+                        Account
+                    </i>
+                </div>
+            </div>
+            <div id="category-list">
+                <p class="item-menu">Go For Hunt</p>
+                <div class="border"></div>
+                <div class="list-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYWWTdFUuefuH-M6qzT7DYrWI7ItJcw1imUw&usqp=CAU" alt="list">
+                    <a href="#" class="list-name">Biryani</a>                
+                </div>
+                <div class="list-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXGOecQ0GMG00Yqy7CFKepbV_mmfC86H_Q9w&usqp=CAU" alt="list">
+                    <a href="#" class="list-name">Chicken Delicious</a>                
+                </div>
+                <div class="list-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxE3v3OPEi6CUc4AbTM1dcfMfI0nNn0805Pg&usqp=CAU" alt="list">
+                    <a href="#" class="list-name">Paneer Mania</a>                
+                </div>
+                <div class="list-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq6Tyh5jgac2UegT357QSt-nhec7fUQ-P3rg&usqp=CAU" alt="list">
+                    <a href="#" class="list-name">Pure Veg Dishes</a>                
+                </div>
+                <div class="list-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv-FtDgNlVef6ctBgbiOTQjypIdSQIJ64jww&usqp=CAU" alt="list">
+                    <a href="#" class="list-name">Chinese Corner</a>                
+                </div>
+                <div class="list-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUaqc5Vni9SCyMFDxUlpv7_3DxVLX57QcYQQ&usqp=CAU" alt="list">
+                    <a href="#" class="list-name">South Indian</a>                
+                </div>
+            </div>
+            <div id="checkout" class="cart-toggle">
+                <p id="total-item">Total Item : 1 </p>
+                <p id="total-price">Total Amount : $ 16</p>
+                <p id="delivery">Free Delivery above : $ 50</p>
+                <button class="cart-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
